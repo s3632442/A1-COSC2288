@@ -37,7 +37,7 @@ public class BasicTestClient
 	{
 		// calls validator to check your code meets specifications
 		// set parameter to true for more verbose output
-		if(Validator.validate(true) == false)
+		if(Validator.validate(false) == false)
 			return;
 	
 		// Creates a game engine
@@ -61,7 +61,7 @@ public class BasicTestClient
 		engine.placeBet("P1", 100);
 		
 		engine.placeBet("P2", 100, Suit.CLUBS);
-		
+		System.out.println("implementing deal player");
 		engine.dealPlayer("P2", TEST_DELAY);
 		engine.dealPlayer("P1", TEST_DELAY);
 		

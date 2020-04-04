@@ -53,7 +53,6 @@ public class ConsoleLoggerCallback implements GameCallback
 
 	@Override
 	public void addPlayer(Player player) {
-		System.out.println("BULLSHIT");
 		
 	}
 
